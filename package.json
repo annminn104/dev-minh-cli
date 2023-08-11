@@ -1,0 +1,29 @@
+{
+  "name": "devminhcli",
+  "version": "1.0.0",
+  "description": "auto generate templates",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node -r esm index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@annminn104:annminn104/dev-minh-cli.git"
+  },
+  "author": "anh minh",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "chalk": "^4.1.2",
+    "dotenv": "^16.0.1",
+    "esm": "^3.2.25",
+    "fs-extra": "^10.1.0",
+    "inquirer": "^8.0.0",
+    "shelljs": "^0.8.5",
+    "yargs": "^17.5.1"
+  },
+  "bin": {
+    "minhcli": "./index.js"
+  }
+}
