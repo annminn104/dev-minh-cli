@@ -1,6 +1,6 @@
 {
   "name": "dev-minh-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "auto generate templates",
   "main": "index.js",
   "scripts": {
