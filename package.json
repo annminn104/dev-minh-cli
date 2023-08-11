@@ -1,5 +1,5 @@
 {
-  "name": "@devminhcli",
+  "name": "dev-minh-cli",
   "version": "1.0.0",
   "description": "auto generate templates",
   "main": "index.js",
