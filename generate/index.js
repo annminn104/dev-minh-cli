@@ -3,7 +3,7 @@ const chalk = require("chalk");
 
 const Template = {
   ANGULAR: "ANGULAR",
-  REACT: "REACT",
+  REACT_ATOMIC: "REACT_ATOMIC",
   SERVER: "SERVER",
 };
 
@@ -15,7 +15,7 @@ function promptUserForTemplateChoice(projectName) {
       message: "Choose a template:",
       choices: [
         { name: chalk.red("Angular"), value: Template.ANGULAR },
-        { name: chalk.blue("React"), value: Template.REACT },
+        { name: chalk.blue("React Atomic"), value: Template.REACT_ATOMIC },
         { name: chalk.yellow("Server"), value: Template.SERVER },
       ],
     },
@@ -40,8 +40,8 @@ function processSelectedTemplate(template, argv) {
     case Template.ANGULAR:
       require("./angular").generateAngular(argv);
       break;
-    case Template.REACT:
-      require("./react").generateReact(argv);
+    case Template.REACT_ATOMIC:
+      require("./react-atomic").generateReactAtomic(argv);
       break;
     case Template.SERVER:
       require("./server").generateServer(argv);
@@ -79,7 +79,7 @@ function GenerateBuilder(yargs) {
         alias: "t",
         describe:
           "Type of template to generate (optional). If not provided, you'll be prompted.",
-        choices: ["angular", "react", "server"],
+        choices: ["angular", "react-atomic", "server"],
         demandOption: false, // set this to false
       },
     })

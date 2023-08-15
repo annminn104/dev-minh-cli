@@ -24,7 +24,7 @@ function createProjectFolder(options) {
   return Promise.resolve(options.rootPath);
 }
 
-async function generateReact(argv) {
+async function generateReactAtomic(argv) {
   try {
     const options = getGenerateOptions(argv);
     await createProjectFolder(options);
@@ -34,4 +34,4 @@ async function generateReact(argv) {
   }
 }
 
-module.exports = { generateReact };
+module.exports = { generateReactAtomic };

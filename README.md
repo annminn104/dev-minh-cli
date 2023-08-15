@@ -7,7 +7,7 @@
 To install dev-minh-cli, you will need to use Node Package Manager (npm). Here's how:
 
 ```shell
-npm install -g devminhcli
+npm install -g dev-minh-cli
 ```
 
 This command will install `dev-minh-cli` globally on your machine, allowing you to run it from any directory in your command line.
