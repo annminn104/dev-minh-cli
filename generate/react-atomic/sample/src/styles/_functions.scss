@@ -1,0 +1,16 @@
+@use 'sass:math';
+@function rem($pixel) {
+  @if not $pixel {
+    @error 'Missing argument $pixel';
+  }
+
+  @return math.div($pixel, 16) * 1rem;
+}
+
+@function icon-path-generation($filename) {
+  @if not $filename {
+    @error 'Missing argument $pixel';
+  }
+
+  @return '#{$icon-path}#{$filename}';
+}

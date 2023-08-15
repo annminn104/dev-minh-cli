@@ -1,0 +1,123 @@
+// fonts
+$font-path: '~/assets/fonts/';
+
+// icons
+$icon-path: '~/assets/icons/';
+
+// transition
+$transition: 0.25s;
+$transition-medium: 0.3s;
+$transition-long: 0.4s;
+
+// z-index
+$z-header: 100;
+$z-modal: 101;
+$z-1: 1;
+$z-loading: 999;
+
+// space
+$height-header-desktop: 100;
+$height-header-desktop-scroll: 76;
+$height-header-tablet-down: 65;
+$height-footer-desktop: 56;
+
+$standard-viewport: 1366px;
+
+// border-radius
+$border-radius-button: 4px;
+
+// Layout
+$h-footer: 56; // 56px
+
+//box-shadow
+$box-shadow-button: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+
+// Front size
+$font-size-default: 0.74rem;
+
+$font-sizes: (
+  '12x16': (
+    desktop: (
+      fs: 12,
+      lh: 16
+    )
+  ),
+  '14x22': (
+    desktop: (
+      fs: 14,
+      lh: 22
+    )
+  ),
+  '16x24': (
+    desktop: (
+      fs: 16,
+      lh: 24
+    ),
+    mobile: (
+      fs: 14,
+      lh: 22
+    )
+  ),
+  '20x30': (
+    desktop: (
+      fs: 20,
+      lh: 30
+    ),
+    tablet: (
+      fs: 18,
+      lh: 28
+    ),
+    mobile: (
+      fs: 16,
+      lh: 24
+    )
+  ),
+  '24x32': (
+    desktop: (
+      fs: 24,
+      lh: 32
+    ),
+    tablet: (
+      fs: 22,
+      lh: 30
+    ),
+    mobile: (
+      fs: 20,
+      lh: 30
+    )
+  ),
+  '38x52': (
+    desktop: (
+      fs: 38,
+      lh: 52
+    ),
+    tablet: (
+      fs: 32,
+      lh: 34
+    ),
+    mobile: (
+      fs: 24,
+      lh: 24
+    )
+  ),
+  '14x21': (
+    desktop: (
+      fs: 14,
+      lh: 21
+    )
+  ),
+  '18x28': (
+    desktop: (
+      fs: 18,
+      lh: 28
+    ),
+    mobile: (
+      fs: 16,
+      lh: 24
+    )
+  )
+);
+
+// Height
+$h-header: 88;
+$h-footer: 88;

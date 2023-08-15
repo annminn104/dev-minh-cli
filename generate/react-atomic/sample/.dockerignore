@@ -1,0 +1,31 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Runtime data
+pids
+*.pid
+*.seed
+
+# Directory used by npm
+node_modules
+npm-debug.log
+
+# Directory used by yarn
+.yarn-cache
+
+# .git directory
+.git
+
+# Cache directories
+.cache/
+dist/
+
+# IDE directories
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
