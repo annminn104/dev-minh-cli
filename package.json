@@ -1,6 +1,6 @@
 {
   "name": "dev-minh-cli",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "auto generate templates",
   "main": "index.js",
   "scripts": {
@@ -25,5 +25,19 @@
   },
   "bin": {
     "minhcli": "./index.js"
-  }
+  },
+  "keywords": [
+    "dev-minh-cli",
+    "frontend",
+    "backend",
+    "generate",
+    "template",
+    "react",
+    "reactjs",
+    "nextjs",
+    "angular",
+    "nestjs",
+    "react-atomic",
+    "server"
+  ]
 }

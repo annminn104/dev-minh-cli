@@ -51,7 +51,7 @@ Here's a table summarizing the available commands:
 | **minhcli generate <project_name> --template server**  | Generate a NestJS project                |
 |                                                        |                                          |
 | **minhcli g <project_name> -t angular**                | Shorthand to generate an Angular project |
-| **minhcli g <project_name> -t nextjs**                 | Shorthand to generate an Angular project |
+| **minhcli g <project_name> -t nextjs**                 | Shorthand to generate an NextJS project  |
 | **minhcli g <project_name> -t react**                  | Shorthand to generate a React project    |
 | **minhcli g <project_name> -t server**                 | Shorthand to generate a NestJS project   |
 
