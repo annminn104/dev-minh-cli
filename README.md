@@ -1,6 +1,6 @@
 # Documentation for dev-minh-cli
 
-## dev-minh-cli is a tool that helps generate project templates for various types of projects including Angular, React, Server (NestJS)
+## dev-minh-cli is a tool that helps generate project templates for various types of projects including Angular, NextJS, React, Server (NestJS)
 
 ### Installation
 
@@ -46,10 +46,12 @@ Here's a table summarizing the available commands:
 | Command                                                | Description                              |
 | ------------------------------------------------------ | ---------------------------------------- |
 | **minhcli generate <project_name> --template angular** | Generate an Angular project              |
+| **minhcli generate <project_name> --template nextjs**  | Generate an NextJS project               |
 | **minhcli generate <project_name> --template react**   | Generate a React project                 |
 | **minhcli generate <project_name> --template server**  | Generate a NestJS project                |
 |                                                        |                                          |
 | **minhcli g <project_name> -t angular**                | Shorthand to generate an Angular project |
+| **minhcli g <project_name> -t nextjs**                 | Shorthand to generate an Angular project |
 | **minhcli g <project_name> -t react**                  | Shorthand to generate a React project    |
 | **minhcli g <project_name> -t server**                 | Shorthand to generate a NestJS project   |
 
