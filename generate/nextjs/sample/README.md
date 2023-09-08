@@ -1,4 +1,4 @@
-# TRIPPER USER DOCUMENTS
+# NEXTJS EXAMPLE DOCUMENTS
 
 ## Libraries, dependencies and tools
 

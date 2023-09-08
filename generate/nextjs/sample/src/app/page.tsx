@@ -10,7 +10,7 @@ export const metadata: Metadata = {
 export default function Home() {
   return (
     <Styled.Wrapper>
-      <Typography variant='h2'>Tripper User Web App Next 13</Typography>
+      <Typography variant='h2'>NextJS 13 Example</Typography>
     </Styled.Wrapper>
   );
 }

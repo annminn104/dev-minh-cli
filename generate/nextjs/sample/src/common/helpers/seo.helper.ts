@@ -2,28 +2,28 @@ import { Metadata } from 'next';
 
 export const seoMetaDataDefault = (props?: Metadata): Metadata => {
   return {
-    title: 'Tripper User Web App 1',
-    description: 'Tripper User Web App',
+    title: 'NextJS Titlte',
+    description: 'NextJS Description',
     openGraph: {
       type: 'website',
       url: '',
       images: [
         {
           url: '',
-          alt: 'Tripper User',
+          alt: 'NextJS Open Graph Image',
           width: 800,
           height: 600
         }
       ]
     },
     twitter: {
-      title: '@tripper_user',
-      description: '@tripper_user',
+      title: '@nextjs_user',
+      description: '@nextjs_user',
       card: 'summary_large_image',
       images: [
         {
           url: '',
-          alt: 'Tripper User',
+          alt: 'NextJS Twitter Image',
           width: 800,
           height: 600
         }

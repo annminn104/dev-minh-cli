@@ -1,4 +1,4 @@
-name: CI TRIPPER USER
+name: CI NEXTJS EXAMPLE
 
 on:
   pull_request:
