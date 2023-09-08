@@ -257,7 +257,6 @@ function createEditorConfig(options) {
 }
 
 async function generateAngular(argv) {
-  console.log(argv);
   try {
     const options = getGenerateOptions(argv);
     await createProjectFolder(options);

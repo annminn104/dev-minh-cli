@@ -1,0 +1,13 @@
+export enum BREAK_POINT_ENUM {
+  XS = 0,
+  SM = 576,
+  MD = 768,
+  LG = 992,
+  XL = 1200
+}
+
+export enum DEVICE_ENUM {
+  MOBILE = BREAK_POINT_ENUM.SM,
+  TABLET = BREAK_POINT_ENUM.MD,
+  DESKTOP = BREAK_POINT_ENUM.XL
+}

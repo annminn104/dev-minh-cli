@@ -1,0 +1,24 @@
+name: CI TRIPPER USER
+
+on:
+  pull_request:
+    types: [opened, reopened]
+    branches: [main, develop, staging]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16.x
+
+      - name: Install dependencies
+        run: yarn install --ignore-scripts --frozen-lockfile
+
+      - name: Next Build
+        run: yarn build

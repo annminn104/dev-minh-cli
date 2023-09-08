@@ -1,0 +1,23 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+echo '🏗️👷 Styling, testing and building your project before committing'
+
+# Check Lint-staged
+echo '🔍 Checking for linting issues...'
+yarn lint-staged  ||
+{
+    echo '🚫 Lint-staged failed. Please fix the issues before committing.'
+    false;
+}
+
+# Check Build
+echo '🔨 Building the project...'
+yarn build  ||
+{
+    echo '❌👷🔨❌ Better call Bob... Because your build failed ❌👷🔨❌
+            Next build failed: View the errors above to see why.'
+    false;
+}
+
+echo '✅✅✅✅ You win this time... I am committing this now. ✅✅✅✅'

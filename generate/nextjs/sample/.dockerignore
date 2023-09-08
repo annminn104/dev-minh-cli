@@ -1,0 +1,14 @@
+node_modules
+.next
+.vscode
+*.DS_Store
+.gitignore
+README.md
+.dockerignore
+LICENSE
+.docker
+.github
+.gitlab
+.git
+.husky
+.jest_cache

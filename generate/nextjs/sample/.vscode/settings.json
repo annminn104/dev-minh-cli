@@ -1,0 +1,8 @@
+{
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "css.lint.emptyRules": "ignore",
+  "less.lint.emptyRules": "ignore",
+  "scss.lint.emptyRules": "ignore",
+  "cSpell.words": ["commitlint", "Hygen", "Roboto", "swcrc"]
+}
